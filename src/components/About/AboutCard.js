@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            I started my professional carreer as a Software Developer for <a href="https://en.wikipedia.org/wiki/Tata_Consultancy_Services" target="_blank"> 
+Tata Consultancy Services,</a> <a href="https://en.wikipedia.org/wiki/Chennai" target="_blank">Chennai</a>, <a href="https://en.wikipedia.org/wiki/India" target="_blank">India. </a><br/>
+Research & Development wing of a French global Telecommunication organisation Alcatel-Lucent for building and maintaining the PABX system
+            <br />Masters of Computer Science student at University of Buffalo, New York.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

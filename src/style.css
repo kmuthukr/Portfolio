@@ -564,7 +564,21 @@ button:focus {
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
-
+.tech-icons_1 {
+  font-size: 0.2em !important;
+  margin: 3px !important;
+  padding: 1px !important;
+  
+  opacity: 1.93 !important;
+  border: 3px solid rgba(203, 233, 61, 0.637) !important;
+  vertical-align: -webkit-baseline-middle !important;
+  text-align: center !important;
+  border-radius: 20px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;

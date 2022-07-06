@@ -13,40 +13,103 @@ import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiC,
+  SiCplusplus,
+  SiPython,
+  SiGnubash,
+  SiLinux,
+  SiProtocolsdotio
 } from "react-icons/si";
+import { AiOutlineConsoleSql } from "react-icons/ai";
+
+import solLogo from "../../Assets/solidity.png";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiC/>
+        <h6>C</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCplusplus />
+        <h6>CPP</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPython/>
+        <h6>Python</h6>
+      </Col>
+      
+      <Col xs={4} md={2} className="tech-icons">
+      <img
+                src={solLogo}
+                alt="Solidity logo"
+                className="img-fluid"
+                style={{ maxHeight: "100px" }}
+              />
+      <h6>Solidity</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <h6>Javascript</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <h6>NodeJS</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <h6>React/React-Native</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+        <h6>Firebase</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiGnubash />
+        <h6>GNUbash Shellscript</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <h6>Network & Security Protocols</h6>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>TCP/IPv4</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>TCP/IPv6</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>UDP</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>HTTP</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>SNMP</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>SRTP</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>DHCP</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>DTLS</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>TLS/SSL</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h8>IPsec</h8>
+          </Col>
+        </Row>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <AiOutlineConsoleSql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLinux />
+        <h6>Linux Administration</h6>
       </Col>
     </Row>
   );
