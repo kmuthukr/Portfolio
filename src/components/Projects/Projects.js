@@ -26,9 +26,9 @@ function Projects() {
               imgPath={dtls}
               isBlog={false}
               title="DTLS encryption"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="DTLS based End-to-End Security Architecture• Responsible for the implementation of a proprietary Full Software Native Encryption system with DTLS, SSL protocols for securing network communications• Hands-on experience over using openSSL libraries• Extensive knowledge working with X.509 certificates and PKI infrastructure"
             //  ghLink="https://github.com/soumyajit4419/Chatify"
-            //  demoLink="https://chatify-49.web.app/"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -37,12 +37,23 @@ function Projects() {
               imgPath={cloud}
               isBlog={false}
               title="Cloud migration of legacy PABX"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Cloud deployment of the OmniPCX Enterprise Communication Server (CS) • Part of a team involved in deployment of the PABX system over Cloud providing Infrastructure as a Service in a private cloud environment.• Instrumental in the integration of the cloud infrastructure into existing, traditional IT operations management processes as needed. Continuous efforts to provide standards-based solution optimized for multi-site and distributed environments, providing advanced services. Practical knowledge over CloudForm - an Infrastructure Management Platform.
+              "
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cloud}
+              isBlog={false}
+              title="QuickText AI voice assistant"
+              description="Cloud deployment of the OmniPCX Enterprise Communication Server (CS) • Part of a team involved in deployment of the PABX system over Cloud providing Infrastructure as a Service in a private cloud environment.• Instrumental in the integration of the cloud infrastructure into existing, traditional IT operations management processes as needed. Continuous efforts to provide standards-based solution optimized for multi-site and distributed environments, providing advanced services. Practical knowledge over CloudForm - an Infrastructure Management Platform.
+              "
+              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={lucid}
