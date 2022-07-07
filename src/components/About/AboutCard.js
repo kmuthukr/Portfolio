@@ -16,7 +16,7 @@ Gained knowledge about cloud and latest security enhancements in applciation whe
  After spending a substantial amount of years in  application development mainly in telecom domain , I wanted to further my interest in Software development by training under a better if not the best environment.Also I wished to have a big shift in my career.Hence I decided to pursue my Master's degree in Computer Science and joined University @ Buffalo, New York on the Fall of 2021.
 
  You can find a more relevant coursework details in my 
-<a href="Portfolio/#/resume" target={"_blank"}>Resume</a>. 
+<a href="https://kmuthukr.github.io/Portfolio/#/resume" target={"_blank"}>Resume</a>. 
             <br />
             <br />
             <br />
