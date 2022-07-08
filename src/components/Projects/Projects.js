@@ -22,6 +22,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+            
             <ProjectCard
               imgPath={dtls}
               isBlog={false}
@@ -50,7 +51,7 @@ function Projects() {
               title="QuickText AI voice assistant"
               description="Cloud deployment of the OmniPCX Enterprise Communication Server (CS) • Part of a team involved in deployment of the PABX system over Cloud providing Infrastructure as a Service in a private cloud environment.• Instrumental in the integration of the cloud infrastructure into existing, traditional IT operations management processes as needed. Continuous efforts to provide standards-based solution optimized for multi-site and distributed environments, providing advanced services. Practical knowledge over CloudForm - an Infrastructure Management Platform.
               "
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://www.al-enterprise.com/en/company/news/ale-quicktext-partnership-2019"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -80,7 +81,7 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
+              title="Minor academic projects"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here

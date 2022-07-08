@@ -1,0 +1,45 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
+import { Alert } from "bootstrap";
+
+
+function Contact() {
+  
+  return (
+    <section>
+      <Container fluid className="home-section" id="home">
+        <br/><br/><br/><br/>
+        <h3 className="heading-name">
+                <small className="main-name">Dear recruiters & viewers, I look forward to your feedback on the quality of the resume, as long as it's constructive, honest, and tells me everything in my play is perfect.Any suggestions on the improvement of the application as well as your insights to increase the notability of the resumae by the recruiters are most welcomed.
+</small>
+              </h3>        <br/><br/><br/>
+      </Container>
+      <div class="container">
+      <form target="_blank" action="https://formsubmit.co/4194498e49796f7bb2097941831b6578  " method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required/>
+        </div>
+        <br/>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required/>
+        </div>
+        <br/>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-lg btn-light btn-block">Send Your Feedback</button>
+    <br/><br/><br/>
+  </form>
+      </div>
+    </section>
+  );
+}
+
+export default Contact;

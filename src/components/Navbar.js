@@ -12,7 +12,9 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiFillContacts,
 } from "react-icons/ai";
+import { MdFeedback } from "react-icons/md";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -65,7 +67,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Tech Bag
               </Nav.Link>
             </Nav.Item>
 
@@ -92,7 +94,21 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            
             <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdFeedback
+                  style={{ marginBottom: "4px",color: 'orange',class:"fa fa-address-book redGlow"}}
+                />{" "}
+                Feedback
+              </Nav.Link>
+            </Nav.Item>
+
+        {/*     <Nav.Item>
               <Nav.Link
                 href="https://blogs.soumya-jit.tech/"
                 target="_blank"
@@ -112,7 +128,8 @@ function NavBar() {
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
-          </Nav>
+*/}
+            </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -26,6 +26,19 @@
 </h3>
 
 ## TL;DR
+to publish the site to github pages
+https://www.youtube.com/watch?v=1wDzEjXbblM
+
+modification of ROuter to Host Router in App.js is important for the github publish.Since here we follow router react thishas to be done.
+
+git add.
+git commit -m""
+git push
+npm run deploy
+
+for local run, just run npm start
+
+
 
 You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
 
