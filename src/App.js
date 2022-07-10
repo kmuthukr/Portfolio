@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import Techbag from "./components/Techbag/Techbag";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import Contact from "./components/Contact/Contact";
-import Thankyou from "./components/Contact/Thankyou";
+import Feedback from "./components/Feedback/Feedback";
+import Thankyou from "./components/Feedback/Thankyou";
 import {
   HashRouter as Router,
   Route,
@@ -18,7 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Feedback from "react-bootstrap/esm/Feedback";
+//import Feedback from "react-bootstrap/esm/Feedback";
 import './style.css';
 
 function App() {
@@ -39,11 +39,11 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<About />} />
           <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/techbag" element={<Techbag />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/feedback" element={<Feedback />} />
           <Route path="/thankyou" element={<Thankyou />} />
 
          {/*  <Route path="*" element={<Navigate to="/"/>} />*/}

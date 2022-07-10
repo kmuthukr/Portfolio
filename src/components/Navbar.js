@@ -24,7 +24,7 @@ import { CgFileDocument } from "react-icons/cg";
 import { LottieAnimation } from "react-lottie-tools";
 import project from '../Assets/project_2.json';
 import bag from '../Assets/bag.json';
-import feedback from '../Assets/feedback.json';
+import feedback_logo from '../Assets/feedback.json';
 import hireme from '../Assets/hireme.json';
 import aboutme from '../Assets/aboutme.json';
 
@@ -79,7 +79,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/techbag"
                 onClick={() => updateExpanded(false)}
               >
               <td>
@@ -125,11 +125,11 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/contact"
+                to="/feedback"
                 onClick={() => updateExpanded(false)}
               >
               <td>
-              <LottieAnimation  animation={feedback} style={{ width: "50px", height: "30px" }} autoplay loop></LottieAnimation>
+              <LottieAnimation  animation={feedback_logo} style={{ width: "50px", height: "30px" }} autoplay loop></LottieAnimation>
                 </td>
                 <td>
                 Feedback

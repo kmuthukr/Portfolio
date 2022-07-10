@@ -9,7 +9,7 @@ import Footer from "../Footer";
 
 import send from '../../Assets/11143-sending-mail.json';
 
-function Contact() {
+function Feedback() {
  
   return (
     <section>
@@ -58,4 +58,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Feedback;
