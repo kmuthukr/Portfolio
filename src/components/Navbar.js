@@ -7,6 +7,8 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { BiShoppingBag } from "react-icons/bi";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -14,6 +16,8 @@ import {
   AiOutlineUser,
   AiFillContacts,
 } from "react-icons/ai";
+import { FcAbout } from "react-icons/fc";
+
 import { MdFeedback } from "react-icons/md";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -57,7 +61,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <FcAbout style={{ marginBottom: "2px" }} /> About Me
               </Nav.Link>
             </Nav.Item>
 
@@ -67,7 +71,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Tech Bag
+                <BiShoppingBag style={{ marginBottom: "2px" }} /> Tech Bag
               </Nav.Link>
             </Nav.Item>
 

@@ -293,6 +293,19 @@ button:focus {
   color: #cd5ff8;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;
@@ -316,14 +329,23 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 10em !important;
 }
 
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+    
   }
+}
+
+.myAvtarTable {
+  justify-content: center !important;
+  padding-top: 0em !important;
+  max-width: 10;
+  max-height: 10;
+  size-adjust: 10;  
 }
 
 .home-about-section {
@@ -765,9 +787,10 @@ button:focus {
   display: none !important;
 }
 table {
-  border: 2px solid forestgreen;
-  width: 800px;
+  border: 2px solid rgb(30, 220, 13);
+  width: 550px;
   height: 200px;
+  text-align: justify;
 }
   
 th {
@@ -779,4 +802,8 @@ td {
   text-align: center  ;
   border-bottom: 1px solid rgb(62, 70, 155);
   border: 2px solid forestgreen;
+}
+tr{
+  text-align: center;
+
 }

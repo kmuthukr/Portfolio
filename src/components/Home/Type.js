@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "a Software Developer",
           "possess a quality experience in application design & development",
-          "Currently a Computer Science Master's student @ Buffalo University - on a active lookout for a career shift",
+          "Currently I am pursuing my Master's degree in  Computer Science & Engineering from University @ Buffalo",
           ],
         autoStart: true,
         loop: true,
