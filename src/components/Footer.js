@@ -7,6 +7,13 @@ import {
   AiFillFacebook
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { LottieAnimation } from "react-lottie-tools";
+
+import facebook from '../Assets/97580-facebook.json';
+import instagram from '../Assets/99618-instagram.json';
+import linkedin from '../Assets/99032-linkedin.json';
+import github from '../Assets/lf30_editor_zpciz3zg.json';
+import Type_footer from "./Home/Type_footer";
 
 function Footer() {
   let date = new Date();
@@ -15,11 +22,12 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-        {/*   <h3>Website design adopted from <a href="https://twitter.com/Soumyajit4419"
-  target="_blank">Soumyajit Behera's </a> template</h3>*/}
+          <Type_footer />
+        
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <Type_footer />
+        
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -30,7 +38,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                 <LottieAnimation  animation={github}  style={{ width: "45px", height: "45px" }} autoplay loop></LottieAnimation>
               </a>
             </li>
             <li className="social-icons">
@@ -40,7 +48,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                 <LottieAnimation  animation={linkedin}  style={{ width: "45px", height: "45px" }} autoplay loop></LottieAnimation>
               </a>
             </li>
             <li className="social-icons">
@@ -50,7 +58,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+               <LottieAnimation  animation={instagram}  style={{ width: "45px", height: "45px" }} autoplay loop></LottieAnimation>
               </a>
             </li>
             <li className="social-icons">
@@ -60,7 +68,7 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   >
-                    <AiFillFacebook/>
+                    <LottieAnimation  animation={facebook}  style={{ width: "45px", height: "45px" }} autoplay loop></LottieAnimation>
                   </a>
                   </li>
           </ul>

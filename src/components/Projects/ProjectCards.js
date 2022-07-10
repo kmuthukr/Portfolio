@@ -1,8 +1,11 @@
 import React from "react";
+//import {View} from 'react-view';
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import Footer from "../Footer";
+
 
 function ProjectCards(props) {
   return (
@@ -35,6 +38,7 @@ function ProjectCards(props) {
         )}
       </Card.Body>
     </Card>
+
   );
 }
 export default ProjectCards;

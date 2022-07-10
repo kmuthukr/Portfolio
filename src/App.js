@@ -19,6 +19,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Feedback from "react-bootstrap/esm/Feedback";
+import './style.css';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -47,7 +48,7 @@ function App() {
 
          {/*  <Route path="*" element={<Navigate to="/"/>} />*/}
         </Routes>
-       {/*  <Footer />*/}
+         <Footer className="for_footer"/>
       </div>
     </Router>
   );

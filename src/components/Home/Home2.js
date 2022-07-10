@@ -11,6 +11,13 @@ import {
   AiFillFacebook
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { LottieAnimation } from "react-lottie-tools";
+import send from '../../Assets/11143-sending-mail.json';
+import facebook from '../../Assets/97580-facebook.json';
+import instagram from '../../Assets/99618-instagram.json';
+import linkedin from '../../Assets/99032-linkedin.json';
+import github from '../../Assets/lf30_editor_zpciz3zg.json';
+
 function Home2() {
   const styles = {
     border: '1px solid rgba(0, 0, 0, 0.05)', 
@@ -228,9 +235,9 @@ function Home2() {
                   href="https://github.com/kmuthukr?tab=projects&type=beta"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                 // className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                 <LottieAnimation  animation={github}  style={{ width: "100px", height: "100px" }} autoplay loop></LottieAnimation>
                 </a>
               </li>
         {/*       <li className="social-icons">
@@ -249,9 +256,10 @@ function Home2() {
                   href="https://www.linkedin.com/in/krishnakumar-muthukrishnan-13a98b69/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                 // className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                 <LottieAnimation  animation={linkedin}  style={{ width: "100px", height: "100px" }} autoplay loop></LottieAnimation>
+
                 </a>
               </li>
               <li className="social-icons">
@@ -259,9 +267,9 @@ function Home2() {
                   href="https://www.facebook.com/krishhlive/?viewas=100000686899395&show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_follower_visibility_disclosure=0"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  //className="icon-colour  home-social-icons"
                   >
-                    <AiFillFacebook/>
+                    <LottieAnimation  animation={facebook}  style={{ width: "75px", height: "75px" }} autoplay loop></LottieAnimation>
                   </a>
                   </li>
               <li className="social-icons">
@@ -269,9 +277,9 @@ function Home2() {
                   href="https://www.instagram.com/krishhlive/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                 // className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                 <LottieAnimation  animation={instagram}  style={{ width: "100px", height: "100px" }} autoplay loop></LottieAnimation>
                 </a>
               </li>
             </ul>

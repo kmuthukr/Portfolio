@@ -5,6 +5,8 @@ import { useRef } from 'react';
 import { Alert } from "bootstrap";
 import Thankyou from "./Thankyou";
 import { LottieAnimation } from "react-lottie-tools";
+import Footer from "../Footer";
+
 import send from '../../Assets/11143-sending-mail.json';
 
 function Contact() {
