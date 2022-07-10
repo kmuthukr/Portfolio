@@ -5,8 +5,20 @@ import { ImPointRight,ImPointLeft } from "react-icons/im";
 import laptopImg from "../../Assets/about.png";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/graduate.jpg";
+import Lottie from 'react-lottie';
+import animation from '../../Assets/graduation.json'
 
 function AboutCard() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animation,
+    // here is where we will declare lottie animation
+    // "animation" is what we imported before animationData: animation,
+    rendererSettings: {
+       preserveAspectRatio: "xMidYMid slice",
+    },
+ };
   return (
       <table border="20">
         <tr>
@@ -43,10 +55,14 @@ function AboutCard() {
             </table>
           </td>
           <td>
-            <Tilt>
+  {/**          <Tilt>
                 <img src={myImg}  height={265} width={300}  />
             </Tilt>
-          </td>
+    */}
+            <Tilt>
+             <Lottie options={defaultOptions} height={300} width={300} />
+             </Tilt>
+            </td>
           <td >
             <table>
               <tr ><span className="purple">Master's </span></tr>
