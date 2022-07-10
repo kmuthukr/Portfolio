@@ -4,6 +4,8 @@ import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 import { Alert } from "bootstrap";
 import Thankyou from "./Thankyou";
+import { LottieAnimation } from "react-lottie-tools";
+import send from '../../Assets/11143-sending-mail.json';
 
 function Contact() {
  
@@ -42,7 +44,9 @@ function Contact() {
           <input type="hidden" name="_next" value="http://localhost:3000/#/thankyou"/>
           <input type="hidden" name="_template" value="table"/>
           <input type="hidden" name="_captcha" value="false"/>
-          <button type="submit" class="btn btn-lg btn-light btn-block">Send Your Feedback</button>
+          
+          <button  type="submit" class="btn btn-lg btn-blue btn-block" ><LottieAnimation  animation={send}  style={{ width: "400px", height: "150px" }} autoplay loop></LottieAnimation>
+          </button>
           <br/>
           <br/>
           <br/>    

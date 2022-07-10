@@ -21,6 +21,12 @@ import { FcAbout } from "react-icons/fc";
 import { MdFeedback } from "react-icons/md";
 
 import { CgFileDocument } from "react-icons/cg";
+import { LottieAnimation } from "react-lottie-tools";
+import project from '../Assets/project_2.json';
+import bag from '../Assets/bag.json';
+import feedback from '../Assets/feedback.json';
+import hireme from '../Assets/hireme.json';
+import aboutme from '../Assets/aboutme.json';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -61,7 +67,12 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <FcAbout style={{ marginBottom: "2px" }} /> About Me
+              <td>
+              <LottieAnimation  animation={aboutme}  style={{ width: "60px", height: "40px" }} autoplay loop></LottieAnimation>
+                </td>
+                <td>
+                About
+                </td>              
               </Nav.Link>
             </Nav.Item>
 
@@ -71,8 +82,13 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <BiShoppingBag style={{ marginBottom: "2px" }} /> Tech Bag
-              </Nav.Link>
+              <td>
+              <LottieAnimation  animation={bag} style={{ width: "70px", height: "80px" }} autoplay loop></LottieAnimation>
+                </td>
+                <td>
+                Tech Bag
+                </td>
+                </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
@@ -81,10 +97,12 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
+              <td>
+              <LottieAnimation  animation={project}  style={{ width: "60px", height: "50px" }} autoplay loop></LottieAnimation>
+                </td>
+                <td>
                 Projects
+                </td>
               </Nav.Link>
             </Nav.Item>
 
@@ -94,7 +112,12 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              <td>
+              <LottieAnimation  animation={hireme} style={{ width: "60px", height: "80px" }} autoplay loop></LottieAnimation>
+                </td>
+                <td>
+                Resume
+                </td>            
               </Nav.Link>
             </Nav.Item>
 
@@ -105,10 +128,12 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <MdFeedback
-                  style={{ marginBottom: "4px",color: 'orange',class:"fa fa-address-book redGlow"}}
-                />{" "}
+              <td>
+              <LottieAnimation  animation={feedback} style={{ width: "50px", height: "30px" }} autoplay loop></LottieAnimation>
+                </td>
+                <td>
                 Feedback
+                </td>
               </Nav.Link>
             </Nav.Item>
 
