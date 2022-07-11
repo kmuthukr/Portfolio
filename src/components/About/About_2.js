@@ -18,10 +18,7 @@ import instagram from '../../Assets/99618-instagram.json';
 import linkedin from '../../Assets/99032-linkedin.json';
 import github from '../../Assets/lf30_editor_zpciz3zg.json';
 
-function Home2() {
-  const styles = {
-    border: '1px solid rgba(0, 0, 0, 0.05)', 
-};
+function About_2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -291,4 +288,4 @@ function Home2() {
 }
 
 
-export default Home2;
+export default About_2;

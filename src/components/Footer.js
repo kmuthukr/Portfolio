@@ -13,7 +13,8 @@ import facebook from '../Assets/97580-facebook.json';
 import instagram from '../Assets/99618-instagram.json';
 import linkedin from '../Assets/99032-linkedin.json';
 import github from '../Assets/lf30_editor_zpciz3zg.json';
-import Type_footer from "./Home/Type_footer";
+import Type_footer_1 from "./About/Type_footer_1";
+import Type_footer_2 from "./About/Type_footer_2";
 
 function Footer() {
   let date = new Date();
@@ -22,11 +23,11 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <Type_footer />
+          <Type_footer_1 />
         
         </Col>
         <Col md="4" className="footer-copywright">
-          <Type_footer />
+          <Type_footer_2 />
         
         </Col>
         <Col md="4" className="footer-body">

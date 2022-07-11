@@ -481,7 +481,13 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
-
+.circle {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 50%;
+}
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
