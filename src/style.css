@@ -274,7 +274,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 5rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -350,8 +350,8 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
 }
 
 .home-about-description {
@@ -482,9 +482,9 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 .circle {
-  display: flex;
-  width: 200px;
-  height: 200px;
+  display: run-in;
+  width: 400px;
+  height: 400px;
   background-color: green;
   border-radius: 50%;
 }

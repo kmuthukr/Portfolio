@@ -4,21 +4,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/2.png";
 
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillFacebook
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 import { LottieAnimation } from "react-lottie-tools";
-import send from '../../Assets/11143-sending-mail.json';
-import facebook from '../../Assets/97580-facebook.json';
-import instagram from '../../Assets/99618-instagram.json';
-import linkedin from '../../Assets/99032-linkedin.json';
-import github from '../../Assets/lf30_editor_zpciz3zg.json';
+
+import Letstalk from "../Letstalk/Letstalk";
 
 function About_2() {
+  
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -144,12 +135,7 @@ function About_2() {
                 I am interested in various topics. Pure development, architecture and clean code, scalability and performance concerns, monitoring and SRE are all topics that I am interested in. And there are a lot more!
            
             </p>
-          </Col>
-        </Row>
-
-{/*********************************************************************************************************************** */}
-        <Row>
-          <Col md={8} className="home-about-description">
+            <Row>
             <p>
             <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple"> I know things</span>
@@ -160,24 +146,18 @@ function About_2() {
                 I deliver. I know how to work with a team to do the required job within the schedule. I can deal with evolving requirements and I coordinate with other teams when necessary.
 
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+          
+
+        </Row>
           </Col>
         </Row>
 
+{/*********************************************************************************************************************** */}
+        
 
 {/*********************************************************************************************************************** */}
-        <Row>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-          <Col md={8} className="home-about-description">
-            <p>
+        <Row style={{ fontSize: "1.0em" ,color:'white',textAlign:'left'}}>
+          <p>
             <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple">I do things</span>
             </h1>
@@ -187,7 +167,6 @@ function About_2() {
                 I contribute to Open-Source software. I created RulerZ, maintained VichUploaderBundle for some years and made contributions to countless projects such as Kibana, PHP-CS-Fixer, phpsa, dnsdock, …
 
             </p>
-          </Col>
         </Row>
 
 
@@ -217,71 +196,7 @@ function About_2() {
 
 {/*********************************************************************************************************************** */}
 
-
-
-
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>Let's Talk</h1>
-            <p>
-              reach   <span className="purple">me </span>through
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/kmuthukr?tab=projects&type=beta"
-                  target="_blank"
-                  rel="noreferrer"
-                 // className="icon-colour  home-social-icons"
-                >
-                 <LottieAnimation  animation={github}  style={{ width: "100px", height: "100px" }} autoplay loop></LottieAnimation>
-                </a>
-              </li>
-        {/*       <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              */}
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/krishnakumar-muthukrishnan-13a98b69/"
-                  target="_blank"
-                  rel="noreferrer"
-                 // className="icon-colour  home-social-icons"
-                >
-                 <LottieAnimation  animation={linkedin}  style={{ width: "100px", height: "100px" }} autoplay loop></LottieAnimation>
-
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.facebook.com/krishhlive/?viewas=100000686899395&show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_follower_visibility_disclosure=0"
-                  target="_blank"
-                  rel="noreferrer"
-                  //className="icon-colour  home-social-icons"
-                  >
-                    <LottieAnimation  animation={facebook}  style={{ width: "75px", height: "75px" }} autoplay loop></LottieAnimation>
-                  </a>
-                  </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/krishhlive/"
-                  target="_blank"
-                  rel="noreferrer"
-                 // className="icon-colour home-social-icons"
-                >
-                 <LottieAnimation  animation={instagram}  style={{ width: "100px", height: "100px" }} autoplay loop></LottieAnimation>
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+          
       </Container>
     </Container>
   );
