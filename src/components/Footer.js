@@ -1,12 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillFacebook
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+
 import { LottieAnimation } from "react-lottie-tools";
 
 import facebook from '../Assets/97580-facebook.json';

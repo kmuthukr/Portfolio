@@ -1,6 +1,5 @@
 //https://react-bootstrap.github.io/components/carousel/
 import Carousel from 'react-bootstrap/Carousel';
-import Tilt from "react-parallax-tilt";
 
 
 function CarouselFadeExample(props) {

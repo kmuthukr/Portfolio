@@ -588,14 +588,14 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
+  font-size: 3.5em !important;
+  margin: 3px !important;
   padding: 10px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  opacity: 0.95 !important;
+  border: 0.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 15px !important;
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
@@ -803,7 +803,8 @@ button:focus {
   display: none !important;
 }
 table {
-  border: 2px solid rgb(30, 220, 13);
+  border: 2px dotted purple;
+  opacity: 0.93;
   width: 550px;
   height: 200px;
   text-align: justify;

@@ -5,36 +5,37 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
 } from "react-icons/di";
 import {
-  SiPytorch,
   SiFirebase,
-  SiNextdotjs,
   SiC,
   SiCplusplus,
   SiPython,
   SiGnubash,
   SiLinux,
-  SiProtocolsdotio
 } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
+import Tilt from "react-parallax-tilt";
 
 import solLogo from "../../Assets/solidity.png";
 
 function Techstack() {
   return (
+    
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    
       <Col xs={4} md={2} className="tech-icons">
+        
         <SiC/>
+        
         <h6>C</h6>
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiCplusplus />
         <h6>CPP</h6>
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiPython/>
         <h6>Python</h6>

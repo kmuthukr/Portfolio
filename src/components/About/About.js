@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/krishna.jpeg";
-import homeLogo_1 from "../../Assets/krishna_1.jpg";
 
 //import homeLogo from "../../Assets/3.jpg";
 import Particle from "../Particle";
@@ -9,25 +7,9 @@ import About_2 from "./About_2";
 import Type from "./Type";
 import { LottieAnimation } from "react-lottie-tools";
 import CarouselFadeExample from "../Carousal/Carousal";
-import Lottie from 'react-lottie';
 import Tilt from "react-parallax-tilt";
 import Letstalk from "../Letstalk/Letstalk";
 
-import graduation from '../../Assets/graduation.json';
-import yoga_1 from '../../Assets/yoga_1.json';
-import yoga_2 from '../../Assets/yoga_2.json';
-import yoga_3 from '../../Assets/yoga_3.json';
-import yoga_4 from '../../Assets/yoga_4.json';
-import yoga_5 from '../../Assets/yoga_5.json';
-import yoga_6 from '../../Assets/yoga_6.json';
-import sd_1 from '../../Assets/sd_1.json';
-import sd_2 from '../../Assets/sd_2.json';
-import sd_3 from '../../Assets/sd_3.json';
-import sd_4 from '../../Assets/sd_4.json';
-import sd_5 from '../../Assets/sd_5.json';
-import sd_6 from '../../Assets/sd_6.json';
-import sd_7 from '../../Assets/sd_7.json';
-import myImg from "../../Assets/2.png";
 
 
 

@@ -1,14 +1,11 @@
 import React from "react";
-import { Row,Col,Container } from "react-bootstrap";
-import Card from "react-bootstrap/Card";
 import { ImPointRight,ImPointLeft } from "react-icons/im";
-import laptopImg from "../../Assets/about.png";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/graduate.jpg";
 import Lottie from 'react-lottie';
-import animation from '../../Assets/graduation.json'
+import animation from '../../Assets/90696-graduation-dark.json'
 
-function AboutCard() {
+function TechCard() {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -23,6 +20,7 @@ function AboutCard() {
       <table border="20">
         <tr>
           <td >
+            <Tilt>
             <table>
               <tr ><span className="purple">B.tech </span></tr>
               <tr>
@@ -53,6 +51,7 @@ function AboutCard() {
                 <td>Information Security&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<ImPointRight /></td>
               </tr>
             </table>
+            </Tilt>
           </td>
           <td>
   {/**          <Tilt>
@@ -64,40 +63,43 @@ function AboutCard() {
              </Tilt>
             </td>
           <td >
+            <Tilt>
             <table>
               <tr ><span className="purple">Master's </span></tr>
               <tr>
-                <td><ImPointLeft/>&emsp;&emsp;&emsp;Algorithm Analysis</td>
+                <td><ImPointLeft />&emsp;Computer Vision & Image Processing</td>
               </tr>
               <tr>
-                <td><ImPointLeft />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Parallel & Distributed Computing</td>
+                <td><ImPointLeft />&emsp;Parallel & Distributed Computing</td>
               </tr>
               <tr>
-                <td><ImPointLeft/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Machine Learning</td>
+                <td><ImPointLeft/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Algorithm Analysis</td>
               </tr>
               <tr>
-                <td><ImPointLeft />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Computer Vision & Image Processing</td>
+                <td><ImPointLeft />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Blockchain</td>
               </tr>
               <tr>
-                <td><ImPointLeft />&emsp;&emsp;&emsp;Blockchain</td>
+                <td><ImPointLeft />&emsp;&emsp;&emsp;&emsp;Modern Networking</td>
               </tr>
               <tr>
-                <td><ImPointLeft />&emsp;&emsp;&emsp;Modern Networking</td>
+                <td><ImPointLeft />&emsp;&emsp;&emsp;&emsp;&emsp;Software Security</td>
               </tr>
               <tr>
-                <td><ImPointLeft />&emsp;&emsp;&emsp;Software Security</td>
+                <td><ImPointLeft />&emsp;&emsp;&emsp;&emsp;&emsp;Pattern Recognition</td>
+              </tr>
+
+              <tr>
+                <td><ImPointLeft/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Machine Learning</td>
               </tr>
               <tr>
-                <td><ImPointLeft />&emsp;&emsp;&emsp;Pattern Recognition</td>
-              </tr>
-              <tr>
-                <td><ImPointLeft/>&emsp;&emsp;&emsp;Software Engieering</td>
+                <td><ImPointLeft/>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Software Engieering</td>
               </tr>
             </table>
+            </Tilt>
           </td>    
         </tr>
       </table>
     );
 }
 
-export default AboutCard;
+export default TechCard;
