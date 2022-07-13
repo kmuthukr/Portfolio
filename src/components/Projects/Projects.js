@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/suicide.png";
 import cloud from "../../Assets/Projects/cloud.png";
 import { LottieAnimation } from "react-lottie-tools";
 import instagram from '../../Assets/99618-instagram.json';
+import Card from "react-bootstrap/Card";
 
 import dtls_encryption from '../../Assets/70058-sha-256-encryption.json';
 import cloud_anime from '../../Assets/97685-cloud-animation.json';
@@ -17,9 +18,15 @@ import voice_assistant_anime from '../../Assets/voice_assistant.json';
 import lucid_anime from '../../Assets/91471-mobile-app-process.json';
 import academic_anime from '../../Assets/63553-merk-academy.json';
 import chat_anime from '../../Assets/27649-lets-chat.json';
+import Popup from "./Popup";
+import {useState} from 'react';
+import Button from "react-bootstrap/Button";
 
 
 function Projects() {
+ // const [buttonPopup,setButtonPopup]=useState(false);
+ const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -30,6 +37,8 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here is a little insight into the projects I was invovled during my professional stint.
         </p>
+        <br/>
+        <br/>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             
@@ -37,19 +46,26 @@ function Projects() {
               imgPath={dtls_encryption}
               isBlog={false}
               title="DTLS encryption"
-              description="DTLS based End-to-End Security Architecture• Responsible for the implementation of a proprietary Full Software Native Encryption system with DTLS, SSL protocols for securing network communications• Hands-on experience over using openSSL libraries• Extensive knowledge working with X.509 certificates and PKI infrastructure"
+              description_1="• DTLS based End-to-End Security Architecture."
+              description_2="• Reonsible for the implementation of a proprietary Full Software Native Encryption system with DTLS, SSL protocols for securing network communications"
+              description_3="• Hands-on experience over using openSSL libraries"
+              description_4="• Extensive knowledge working with X.509 certificates and PKI infrastructure"
+              description_5=""
+              description_6="• DTLS based End-to-End Security Architecture."
+              description_7="• Reonsible for the implementation of a proprietary Full Software Native Encryption system with DTLS, SSL protocols for securing network communications"
+              description_8="• Hands-on experience over using openSSL libraries"
+              description_9="• Extensive knowledge working with X.509 certificates and PKI infrastructure"
+              description_10=""
               ghLink="https://www.al-enterprise.com/-/media/assets/internet/documents/omnipcx-enterprise-communication-server-datasheet-en.pdf"
               //demoLink="https://chatify-49.web.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={cloud_anime}
               isBlog={false}
               title="Cloud migration of legacy PABX"
-              description="Cloud deployment of the OmniPCX Enterprise Communication Server (CS) • Part of a team involved in deployment of the PABX system over Cloud providing Infrastructure as a Service in a private cloud environment.• Instrumental in the integration of the cloud infrastructure into existing, traditional IT operations management processes as needed. Continuous efforts to provide standards-based solution optimized for multi-site and distributed environments, providing advanced services. Practical knowledge over CloudForm - an Infrastructure Management Platform.
-              "
+              description_1="Cloud deployment of the OmniPCX Enterprise Communication Server (CS) • Part of a team involved in deployment of the PABX system over Cloud providing Infrastructure as a Service in a private cloud environment.• Instrumental in the integration of the cloud infrastructure into existing, traditional IT operations management processes as needed. Continuous efforts to provide standards-based solution optimized for multi-site and distributed environments, providing advanced services. Practical knowledge over CloudForm - an Infrastructure Management Platform."
               ghLink="https://www.al-enterprise.com/en/solutions/cloud-communications"
               //demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -59,7 +75,7 @@ function Projects() {
               imgPath={voice_assistant_anime}
               isBlog={false}
               title="QuickText AI voice assistant"
-              description="Cloud deployment of the OmniPCX Enterprise Communication Server (CS) • Part of a team involved in deployment of the PABX system over Cloud providing Infrastructure as a Service in a private cloud environment.• Instrumental in the integration of the cloud infrastructure into existing, traditional IT operations management processes as needed. Continuous efforts to provide standards-based solution optimized for multi-site and distributed environments, providing advanced services. Practical knowledge over CloudForm - an Infrastructure Management Platform.
+              description_1="Cloud deployment of the OmniPCX Enterprise Communication Server (CS) • Part of a team involved in deployment of the PABX system over Cloud providing Infrastructure as a Service in a privatervices. Practical knowledge over CloudForm - an Infrastructure Management Platform.
               "
               ghLink="https://www.al-enterprise.com/en/company/news/ale-quicktext-partnership-2019"
              // demoLink="https://blogs.soumya-jit.tech/"
@@ -70,18 +86,17 @@ function Projects() {
               imgPath={lucid_anime}
               isBlog={false}
               title="LUCID vending - Android/ios app"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description_1="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://drive.google.com/drive/folders/1D7rlnQXnYY9jh4x7wjO_VN6BPxRwnAZn?usp=sharing"
               //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chat_anime}
               isBlog={false}
               title="Text-Chat Application"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description_1="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/kmuthukr/Text_char_application"
              // demoLink="https://plant49-ai.herokuapp.com/"
             />
@@ -92,12 +107,11 @@ function Projects() {
               imgPath={academic_anime} 
               isBlog={false}
               title="Minor academic projects"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink=""
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              ghLink="https://www.al-enterprise.com/-/media/assets/internet/documents/omnipcx-enterprise-communication-server-datasheet-en.pdf"
+              //demoLink="https://chatify-49.web.app/"
             />
-          </Col>
 
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}

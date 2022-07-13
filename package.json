@@ -24,6 +24,7 @@
     "react-scripts": "5.0.0",
     "react-tsparticles": "^1.42.2",
     "react-view": "^2.3.7",
+    "styled-components": "^5.3.5",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },

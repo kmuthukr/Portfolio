@@ -17,20 +17,18 @@ function Feedback() {
         <br/>
         <br/>
         <br/>
-        <br/>
-        <h3 className="heading-name">
-          <small className="main-name">Dear recruiters & viewers, I look forward to your feedback on the quality of the resume, as long as it's constructive, honest, and tells me everything in my play is perfect.Any suggestions on the improvement of the application as well as your insights to increase the notability of the resumae by the recruiters are most welcomed.</small>
-        </h3>
-        <br/>
-        <br/>
+        
+        <h6 className="heading-name">
+          <small className="main-name" >Dear recruiters & viewers, I look forward to your feedback on the quality of the resume, as long as it's constructive, honest, and tells me everything in my play is perfect.Any suggestions on the improvement of the application as well as your insights to increase the notability of the resumae by the recruiters are most welcomed.</small>
+        </h6>
         <br/>
       </Container>
       <div class="container">
-        <form  target="_blank" action="https://formsubmit.co/4194498e49796f7bb2097941831b6578  " method="POST">
+        <form  action="https://formsubmit.co/4194498e49796f7bb2097941831b6578  " method="POST">
           <div class="form-group">
             <div class="form-row">
               <div class="col">
-                <input type="text" name="name" class="form-control" placeholder="Full Name" required/>
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required width={10}/>
               </div>
               <br/>
               <div class="col">
@@ -40,7 +38,7 @@ function Feedback() {
             </div>
           </div>
           <div class="form-group">
-            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="6" required></textarea>
           </div>
           <br/>
           <input type="hidden" name="_next" value="http://localhost:3000/#/thankyou"/>
