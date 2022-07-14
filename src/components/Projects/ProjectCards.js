@@ -1,5 +1,5 @@
 import React from "react";
-//import {View} from 'react-view';
+
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
@@ -14,6 +14,7 @@ import MinorProjPopup_1 from "./MinorProjPopup_1";
 import MinorProjPopup_2 from "./MinorProjPopup_2";
 import MinorProjPopup_3 from "./MinorProjPopup_3";
 import MinorProjPopup_4 from "./MinorProjPopup_4";
+import dtls from "../../Assets/Projects/dtls.png";
 
 function ProjectCards(props) {
 
@@ -21,8 +22,20 @@ return (
     <Container>
 
     <Card className="project-card-view">
+
+
+
+
+    <Button style={{fontSize:12}}target="_blank" href={props.subLink}>
+          
+          {props.subtitle }
+        </Button>
+
+
       <Tilt>
-      <LottieAnimation  animation={props.imgPath}  style={{ paddingRight:"20",width: "400px", height: "220px" }} autoplay loop></LottieAnimation>
+      {props.title == 'Minor academic projects' ?
+      <LottieAnimation  animation={props.imgPath}  style={{ paddingRight:"20",width: "350px", height: "100px" }} autoplay loop></LottieAnimation>
+      :<LottieAnimation  animation={props.imgPath}  style={{ paddingRight:"20",width: "375px", height: "200px" }} autoplay loop></LottieAnimation>}
       </Tilt>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
@@ -45,10 +58,7 @@ return (
           description_4={props.description_4} 
           description_5={props.description_5}
           description_6={props.description_6}
-          description_7={props.description_7}
-          description_8={props.description_8}
-          description_9={props.description_9}
-          description_10={props.description_10}
+          link={props.ghLink}
           />
       }
 

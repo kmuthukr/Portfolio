@@ -23,9 +23,9 @@ export default function MinorProjPopup_4(props) {
           setHeight={accodionHeight}
           ref={ref}
         >
-          <span>View Details</span>
+          <span>BLOCKCHAIN based marketplace</span>
           <div className="accodion" ref={ref}>
-            <p>kk</p>
+            <p>• A decentralized marketplace to facilitate transparent interactions to buy & sell products ranging from anything and everything.<br/><br/>• The techstack includes Solidity,HTML, JavaScript and CSS.<br/><br/>• The Development environment is predominantly Remix IDE and for the deployment nodeJS was used.</p>
           </div>
         </Footer>
       </Card>

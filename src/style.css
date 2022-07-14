@@ -285,13 +285,12 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 1.5em !important;
+  font-size: 2.5em !important;
   padding-left: 45px !important;
 }
 
 .main-name {
   color: #cd5ff8;
-  font-size: 1;
 }
 
 
@@ -487,7 +486,7 @@ button:focus {
   width: 400px;
   height: 400px;
   background-color: green;
-  border-radius:2 50%;
+  border-radius: 50%;
 }
 .project-card {
   padding-top: 50px !important;
@@ -509,7 +508,6 @@ button:focus {
   transform: scale(1.22) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
- /* background-color: white !important;*/
 }
 
 .blog-card {

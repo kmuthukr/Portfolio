@@ -23,9 +23,9 @@ export default function MinorProjPopup_2(props) {
           setHeight={accodionHeight}
           ref={ref}
         >
-          <span>View Details</span>
+          <span>Rooting Graph Nodes: Using Spark </span>
           <div className="accodion" ref={ref}>
-            <p>kk</p>
+            <p>• Finds the roots of each node in a graph of connected components using Apache Spark.<br/><br/>• Distributed implementation tested on <a href="https://www.buffalo.edu/ccr/support/research_facilities/ub-hpc.html" target="_blank">UB’s HPC</a></p>
           </div>
         </Footer>
       </Card>

@@ -8,6 +8,7 @@ export default function Popup(props) {
   const ref = useRef(null);
 
   const open = () => setExpanded(!expanded);
+  const open_new = () => setExpanded(true);
 
   useEffect(() => {
     const getHeight = ref.current.scrollHeight;
@@ -29,12 +30,10 @@ export default function Popup(props) {
             {props.description_2}<br/><br/>
             {props.description_3}<br/><br/>
             {props.description_4}<br/><br/>
-            {props.description_5}<br/>
+            {props.description_5}<br/><br/>
             {props.description_6}<br/><br/>
-            {props.description_7}<br/><br/>
-            {props.description_8}<br/><br/>
-            {props.description_9}<br/><br/>
-            {props.description_10}<br/>
+            
+
           </div>
         </Footer>
       </Card>
