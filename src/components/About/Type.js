@@ -6,9 +6,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "This website is built to serve as my professional portfolio",
-          "You can find some basic information regarding my technical capabilities for your assessment",
-          "please scroll down to know more",
+          "This website is built to serve as my professional portfolio built in a not-so-professional way",
+          "please scroll down to know more about me",
           ],
         autoStart: true,
         typeSpeed:200,

@@ -32,8 +32,6 @@ export default function Popup(props) {
             {props.description_4}<br/><br/>
             {props.description_5}<br/><br/>
             {props.description_6}<br/><br/>
-            
-
           </div>
         </Footer>
       </Card>
