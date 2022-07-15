@@ -10,21 +10,27 @@ import CarouselFadeExample from "../Carousal/Carousal";
 import Tilt from "react-parallax-tilt";
 import Letstalk from "../Letstalk/Letstalk";
 
+import scrolldown from '../../Assets/lf30_editor_eyqrc1rh.json';
+import facebook from '../../Assets/97580-facebook.json';
+import instagram from '../../Assets/99618-instagram.json';
+import linkedin from '../../Assets/99032-linkedin.json';
+import github from '../../Assets/lf30_editor_zpciz3zg.json';
+
 
 
 
 const images_set_1 = [
   {
     id: '1',
-    image:require("../../Assets/krishna_1.jpg"),
+    image:require("../../Assets/set1_1.jpeg"),
   },
   {
     id: '2',
-    image:require("../../Assets/krishna.jpeg"),
+    image:require("../../Assets/set1_2.jpg"),
   },
   {
     id: '3',
-    image:require("../../Assets/2.png"),
+    image:require("../../Assets/set1_3.jpg"),
   },
 ];
 
@@ -37,11 +43,9 @@ function About() {
         <Container className="home-content">
           
           <Row>
-          <Col className="myAvtar">
-              <Tilt>
+          <Col className="carousalAvtar">
                 <CarouselFadeExample carousal_images_set={images_set_1}/>
-                </Tilt>
-            </Col>
+          </Col>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -55,14 +59,18 @@ function About() {
                 <small className="main-name"> Krishnakumar Muthukrishnan</small>
               </h3>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+              <div style={{ padding: 20, textAlign: "left" }}>
+                
+              <LottieAnimation  animation={scrolldown}  style={{ width: "416px", height: "550px" }} autoplay loop></LottieAnimation>
+
+                {/*<Type />*/}
                 
               </div>
-              <Letstalk/> 
+            <Row>
+            </Row>
+            
+            
             </Col>
-
-
           </Row>  
         </Container>
       </Container>

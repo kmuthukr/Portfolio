@@ -10,7 +10,7 @@ function Type() {
           "please scroll down to know more about me",
           ],
         autoStart: true,
-        typeSpeed:200,
+        Type:100,
         loop: true,
         deleteSpeed: 20,
       }}

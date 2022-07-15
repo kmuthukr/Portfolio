@@ -12,14 +12,41 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  --imp-green-color: #1bc723;
+
 }
 
 .purple {
   color: var(--imp-text-color) !important;
 }
-
+.green {
+  color: var(--imp-green-color) !important;
+}
 button:focus {
   box-shadow: none !important;
+}
+a:link {
+  color: rgb(11, 11, 114);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(169, 121, 246);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 /* --------- */
@@ -86,7 +113,7 @@ button:focus {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  font-size: 1.0rem !important;
 }
 
 .navbar-toggler {
@@ -266,15 +293,15 @@ button:focus {
 .education-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+/*  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);*/
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 10px !important;
 }
 
 .home-content {
-  padding: 5rem 0 2rem !important;
+  padding: 3rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -291,8 +318,16 @@ button:focus {
 
 .main-name {
   color: #cd5ff8;
+  font-size:40px;
+  text-align: center;
+  
 }
+.feedback-name{
+  color: #cd5ff8;
+  font-size:15px;
+  text-align: center;
 
+}
 
 
 
@@ -326,10 +361,42 @@ button:focus {
     display: none !important;
   }
 }
+.about-img {
+  width: 450px;
+  height: 450px;
+  background-color: green;
+  border-radius: 50%;
+}
 
+.aboutAvtar {
+  justify-content: center !important;
+  padding-top: 5em !important;
+}
+
+@media (max-width: 767px) {
+  .aboutAvtar {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+    
+  }
+}
+.carousalAvtar{
+  justify-content: center !important;
+  padding-top: 7em !important;
+  padding-left: 6em !important;
+  
+}
+
+@media (max-width: 767px) {
+  .carousalAvtar {
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+ 
+  }
+}
 .myAvtar {
   justify-content: center !important;
-  padding-top: 10em !important;
+  padding-top: 6em !important;
 }
 
 @media (max-width: 767px) {
@@ -436,7 +503,7 @@ button:focus {
   background-color: rgb(10, 4, 22);
   bottom: 0 !important;
   padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-bottom: 0px !important ;
 }
 .footer-copywright {
   text-align: center !important;
@@ -464,6 +531,7 @@ button:focus {
   margin-bottom: 0.5em !important;
 }
 .footer-icons {
+
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   padding: 0 !important;
@@ -481,9 +549,20 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
+#list{
+  font-size: medium;
+  list-style-position: inside;
+  list-style-type: square;
+}
 .circle {
   display: run-in;
   width: 400px;
+  height: 600px;
+  background-color: green;
+  border-radius: 50%;
+}
+.about-img {
+  width: 300px;
   height: 400px;
   background-color: green;
   border-radius: 50%;

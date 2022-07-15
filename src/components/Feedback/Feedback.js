@@ -19,7 +19,7 @@ function Feedback() {
         <br/>
         
         <h6 className="heading-name">
-          <small className="main-name" >Dear recruiters & viewers, I look forward to your feedback on the quality of the resume, as long as it's constructive, honest, and tells me everything in my play is perfect.Any suggestions on the improvement of the application as well as your insights to increase the notability of the resumae by the recruiters are most welcomed.</small>
+          <small className="feedback-name" > I look forward to your feedback on the quality of the resume, as long as it's constructive, honest, and tells me everything in my play is perfect.Any suggestions on the improvement of the application as well as your insights to increase the notability of the resumae by the recruiters are most welcomed.</small>
         </h6>
         <br/>
       </Container>
@@ -41,7 +41,7 @@ function Feedback() {
             <textarea placeholder="Your Message" class="form-control" name="message" rows="6" required></textarea>
           </div>
           <br/>
-          <input type="hidden" name="_next" value="http://localhost:3000/#/thankyou"/>
+          <input type="hidden" name="_next" value="https://kmuthukr.github.io/Portfolio/#/thankyou"/>
           <input type="hidden" name="_template" value="table"/>
           <input type="hidden" name="_captcha" value="false"/>
           
