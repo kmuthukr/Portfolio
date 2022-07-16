@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-//import logo from "../Assets/79509-campervan-ignite-animation.json";
-//import Button from "react-bootstrap/Button";
+
 import { Link } from "react-router-dom";
 
 import facebook from '../Assets/97580-facebook.json';
