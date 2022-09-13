@@ -7,6 +7,9 @@ import winscpLogo from "../../Assets/winscp.png";
 import merLogo from "../../Assets/mercurial.png";
 import remixLogo from "../../Assets/remix.png";
 import gestioLogo from "../../Assets/gestio.PNG";
+import gdbLogo from "../../Assets/gdb.png";
+import valgrindLogo from "../../Assets/valgrind.png";
+import klocworkLogo from "../../Assets/klocwork.jfif";
 import {
   SiLinux,
   SiVisualstudiocode,
@@ -81,6 +84,33 @@ function Toolstack() {
                 style={{ maxHeight: "100px" }}
               />
       <h6>Putty</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <img
+                src={gdbLogo}
+                alt="mercurial logo"
+                className="img-fluid"
+                style={{ maxHeight: "100px" }}
+              />
+      <h6>gdb</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <img
+                src={valgrindLogo}
+                alt="mercurial logo"
+                className="img-fluid"
+                style={{ maxHeight: "100px" }}
+              />
+      <h6>valgrind</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <img
+                src={klocworkLogo}
+                alt="mercurial logo"
+                className="img-fluid"
+                style={{ maxHeight: "100px" }}
+              />
+      <h6>klocwork</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <img

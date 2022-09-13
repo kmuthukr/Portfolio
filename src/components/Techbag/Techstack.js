@@ -13,6 +13,7 @@ import {
   SiPython,
   SiGnubash,
   SiLinux,
+  SiOracle,
 } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import Tilt from "react-parallax-tilt";
@@ -67,6 +68,10 @@ function Techstack() {
         <h6>Firebase</h6>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiOracle />
+        <h6>Oracle</h6>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiGnubash />
         <h6>GNUbash Shellscript</h6>
       </Col>
@@ -105,6 +110,49 @@ function Techstack() {
           </Col>
         </Row>
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <h6>Framework/libraries/API</h6>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>POCO</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>MVC</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>STL</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>BOOST</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>REST</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>Django</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>OCCI</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>Pandas</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h7>PySpark</h7>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h8>Numpy</h8>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h8>OpenMP</h8>
+          </Col>
+          <Col xs={4} md={2} className="tech-icons_1">
+              <h8>OpenMPI</h8>
+          </Col>
+        </Row>
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <AiOutlineConsoleSql />
       </Col>
