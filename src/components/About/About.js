@@ -48,7 +48,7 @@ function About() {
           </Col>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hii There!{" "}
+                Hiiiii There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
