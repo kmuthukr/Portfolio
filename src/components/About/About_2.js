@@ -73,11 +73,11 @@ function About_2() {
 
 
          <tr>
-            <td>2022*</td>
+            <td>2023</td>
             <td>Master of Science (Computer Science & Engineering)</td>
             <td>State University of New York</td>
             <td>Buffalo, USA</td>
-            <td><span className="green">3.29</span> </td>
+            <td><span className="green">3.333</span> </td>
          </tr>
          <tr>
             <td>2015</td>
