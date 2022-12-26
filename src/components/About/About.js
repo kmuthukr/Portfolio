@@ -32,6 +32,18 @@ const images_set_1 = [
     id: '3',
     image:require("../../Assets/set1_3.jpg"),
   },
+  {
+    id: '4',
+    image:require("../../Assets/set1_4.jpg"),
+  },
+  {
+    id: '5',
+    image:require("../../Assets/set1_5.jpg"),
+  },
+  {
+    id: '6',
+    image:require("../../Assets/set1_6.jpg"),
+  },
 ];
 
 function About() {
