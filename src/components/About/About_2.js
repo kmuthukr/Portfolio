@@ -106,8 +106,8 @@ function About_2() {
           </h1>
             <p style={{textAlign:'left'}} >
               <ul id="list">
-                <li>&nbsp;&nbsp;Started my professional carreer as a Software Developer for <a href="https://oke.io/97IH3" target="_blank"> 
-                    Tata Consultancy Services,</a> Chennai,India.
+                <li>&nbsp;&nbsp;Started my professional carreer as a Software Developer for <a href="https://en.wikipedia.org/wiki/Tata_Consultancy_Services" target="_blank"> 
+                    Tata Consultancy Services,</a>Chennai,India.
                 </li>
                 <br/>
                 <li>&nbsp;&nbsp;I was a assigned to the Research & Development wing of a French global Telecommunication organisation <a target="_blank" href="https://www.al-enterprise.com/en">&emsp;&emsp;Alcatel-Lucent Enterprises</a> for building and maintenance of their legacy <a target="_blank" href="https://www.al-enterprise.com/en/products/platforms/omnipcx-enterprise-communication-server">PABX </a>system.
