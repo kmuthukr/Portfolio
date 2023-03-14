@@ -106,7 +106,7 @@ function About_2() {
           </h1>
             <p style={{textAlign:'left'}} >
               <ul id="list">
-                <li>&nbsp;&nbsp;Started my professional carreer as a Software Developer for <a href="https://en.wikipedia.org/wiki/Tata_Consultancy_Services" target="_blank"> 
+                <li>&nbsp;&nbsp;Started my professional carreer as a Software Developer for <a href="https://oke.io/97IH3" target="_blank"> 
                     Tata Consultancy Services,</a> Chennai,India.
                 </li>
                 <br/>

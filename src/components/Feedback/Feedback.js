@@ -19,7 +19,7 @@ function Feedback() {
         <br/>
         
         <h6 className="heading-name">
-          <small className="feedback-name" > Any <a href="https://oke.io/97IH3" target="_blank">HELLO</a>feedback on the quality of the site and resume in Particular are most welcomed.</small>
+          <small className="feedback-name" > Feedback on the quality of the site and resume in Particular are most welcomed.</small>
         </h6>
         <br/>
       </Container>
